@@ -1,6 +1,7 @@
 * {
   color: #fff5ee;
   opacity: .9;
+  text-align: center;
   background-color: #000;
   margin: 0;
   padding: 0;
@@ -9,6 +10,55 @@
 
 html {
   font-size: 22px;
+}
+
+header {
+  height: 69px;
+  width: 100%;
+  z-index: 1;
+  opacity: 1;
+  border-bottom: 1px solid #fff5ee;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  position: fixed;
+}
+
+header img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+header nav li {
+  margin-left: 15px;
+  text-decoration: underline;
+  display: inline;
+}
+
+section {
+  margin-top: 69px;
+}
+
+#mission {
+  height: 700px;
+  width: 1200px;
+  background-image: url("img-mission-background.bb2748e9.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  margin: 69px auto;
+  display: flex;
+}
+
+.hero {
+  opacity: 1;
+  width: 100%;
+}
+
+#featured {
+  width: 1000px;
+  display: flex;
 }
 
 /*# sourceMappingURL=index.1303bb05.css.map */
