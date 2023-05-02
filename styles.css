@@ -11,33 +11,3 @@ html {
     font-size: 22px;
 }
 
-header {
-    position: fixed;
-    height: 69px;
-    width: 100%;
-    border-bottom: 1px solid seashell;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 1;
-    opacity: 1;
-}
-
-header a {
-    margin: 10px;
-}
-
-header img {
-    height: 50px;
-    margin-left: 10px;
-}
-
-#mission {
-    height: 700px;
-    width: 1200px;
-    background-image: url(./ressources/img-mission-background.jpg);
-    z-index: 1;
-    display: flex;
-    align-items: center;
-    margin-bottom: 80px;
-}

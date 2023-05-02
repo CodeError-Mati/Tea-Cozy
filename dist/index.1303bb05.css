@@ -11,35 +11,4 @@ html {
   font-size: 22px;
 }
 
-header {
-  height: 69px;
-  width: 100%;
-  z-index: 1;
-  opacity: 1;
-  border-bottom: 1px solid #fff5ee;
-  justify-content: space-between;
-  align-items: center;
-  display: flex;
-  position: fixed;
-}
-
-header a {
-  margin: 10px;
-}
-
-header img {
-  height: 50px;
-  margin-left: 10px;
-}
-
-#mission {
-  height: 700px;
-  width: 1200px;
-  z-index: 1;
-  background-image: url("img-mission-background.bb2748e9.jpg");
-  align-items: center;
-  margin-bottom: 80px;
-  display: flex;
-}
-
 /*# sourceMappingURL=index.1303bb05.css.map */
